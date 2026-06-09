@@ -3,17 +3,19 @@
 > ⚠️ **Disclaimer: Strictly Educational Project.**
 > This project is a Proof of Concept (PoC) designed solely to explore, illustrate, and understand how Bluetooth Low Energy (BLE) advertising packets function. 
 >
-> It is **not** designed to disrupt, saturate, or interfere with the normal operation of third-party devices or networks. The use of this code must be restricted entirely to a controlled testing environment on hardware that you own. The author assumes no responsibility for any misuse or violation of third-party platform terms of service.
+> It is **not** designed to disrupt, saturate, or interfere with the normal operation of third-party devices or networks. The use of this code must be restricted entirely to a controlled testing environment on hardware that you own. The author assumes no responsibility for any misuse or violation of third-party platform terms of service. (please just dont do bad things with it) 
 
 ## 📖 About the Project
 
-This repository contains the source code for a technical experiment on Arduino, demonstrating how a device can broadcast BLE advertising packets containing specific Manufacturer Data payloads. 
+This repository contains the source code for a technical experiment on Arduino, 
 
-The goal of this project is to demystify "BLE broadcasting" and observe how different identifiers are structured within radio frames. To make the project interactive, it features a visual interface using the Arduino's onboard LED matrix and allows real-time control via the Serial Monitor.
+When I received my Arduino Uno R4 WiFi, I thought it was impossible since it's very limited, but it works, so there you go.. 
+
+also my readme is made by ai but my code isnt ;)
 
 ## 🛠️ Hardware Requirements
 
-* **Board:** Arduino Uno R4 WiFi.
+* **Board:** Arduino Uno R4 WiFi. 
 * **Cable:** USB-C for power and serial communication.
 
 ## 📚 Dependencies and Libraries
@@ -25,7 +27,7 @@ To compile this project, you will need to install the following libraries via th
 ## 🚀 Features
 
 * **Dynamic BLE Broadcasting:** Allows you to load and broadcast various advertising data structures (payloads).
-* **Visual Interface (LED Matrix):** * Displays the name of the currently selected payload as scrolling text.
+* **Visual Interface (LED Matrix):** * Displays the name of the currently selected payload as scrolling text. (glitchy as f#ck)
   * Shows status emojis (e.g., startup success/failure, broadcasting status).
 * **Serial Monitor Control (115200 baud):**
   * `u` (Up): Switch to the next payload.
