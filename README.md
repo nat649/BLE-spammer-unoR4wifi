@@ -45,4 +45,4 @@ To compile this project, you will need to install the following libraries via th
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details. 
+there is no license use it as you want
